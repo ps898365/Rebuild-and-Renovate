@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "72913764109",
+    "project_id": "renovate9-9a512",
+    "storage_bucket": "renovate9-9a512.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:72913764109:android:5ca990e85fe0dbdc69fa44",
+        "android_client_info": {
+          "package_name": "com.example.renovate_"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "72913764109-cfafqqijci39j68vk4qa3au2lgpcng5b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAKBf72guLeHXS-NSaUQOkDclHcw99vtuk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "72913764109-cfafqqijci39j68vk4qa3au2lgpcng5b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

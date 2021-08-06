@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.HomeFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+
+        <ImageView
+            android:layout_width="330dp"
+            android:layout_height="330dp"
+            android:src="@drawable/camera1"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="20dp"
+            android:id="@+id/home_fragment_select_image"
+            />
+
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/home_title"
+            android:inputType="text"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"
+            android:textColorHint="@color/primary"
+            android:hint="Title :"
+            android:textSize="20sp"
+            android:textColor="@color/primary"
+            android:background="@drawable/input_design"
+            android:padding="20dp"/>
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/home_description"
+            android:layout_marginLeft="20dp"
+            android:inputType="text"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"            android:textColorHint="@color/primary"
+            android:hint="Description :"
+            android:textSize="20sp"
+            android:textColor="@color/primary"
+            android:background="@drawable/input_design"
+            android:padding="20dp"/>
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/buttons"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp"
+            android:padding="10dp"
+            android:textAllCaps="false"
+            android:layout_marginTop="20dp"
+            android:text="Upload your Query"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:id="@+id/home_query_btn"
+            android:layout_marginBottom="20dp"
+            />
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="50dp"
+            android:visibility="invisible"
+            android:id="@+id/home_progress_bar"/>
+
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>

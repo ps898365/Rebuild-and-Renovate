@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".staff.join_now">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:src="@drawable/logo"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:id="@+id/main_image"
+            />
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/join_phone_num"
+            android:layout_marginTop="20dp"
+            android:inputType="phone"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"
+            android:textColorHint="@color/primary"
+            android:hint="Phone Number :"
+            android:textSize="20sp"
+            android:textColor="@color/primary"
+            android:background="@drawable/input_design"
+            android:padding="20dp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/join_password"
+            android:inputType="textPassword"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"            android:textColorHint="@color/primary"
+            android:hint="Password :"
+            android:textSize="20sp"
+            android:textColor="@color/primary"
+            android:background="@drawable/input_design"
+            android:padding="20dp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/join_user_name"
+            android:inputType="text"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"            android:textColorHint="@color/primary"
+            android:hint="User Name :"
+            android:textSize="20sp"
+            android:textColor="@color/primary"
+            android:background="@drawable/input_design"
+            android:padding="20dp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/join_mail"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"            android:textColorHint="@color/primary"
+            android:hint="Mail :"
+            android:inputType="textEmailAddress"
+            android:textSize="20sp"
+            android:textColor="@color/primary"
+            android:background="@drawable/input_design"
+            android:padding="20dp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/join_college_name"
+            android:layout_marginLeft="20dp"
+            android:inputType="textMultiLine"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"            android:textColorHint="@color/primary"
+            android:hint="College Name :"
+            android:textSize="20sp"
+            android:textColor="@color/primary"
+            android:background="@drawable/input_design"
+            android:padding="20dp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/join_college_code"
+            android:layout_marginLeft="20dp"
+            android:inputType="number"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"            android:textColorHint="@color/primary"
+            android:hint="College Code :"
+            android:textSize="20sp"
+            android:textColor="@color/primary"
+            android:background="@drawable/input_design"
+            android:padding="20dp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/buttons"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp"
+            android:padding="10dp"
+            android:text="Register as Staff"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:id="@+id/join_register_btn"
+            android:layout_marginBottom="20dp"
+            />
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:visibility="invisible"
+            android:id="@+id/join_progress_bar"/>
+
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>
